@@ -36,7 +36,7 @@ sidebarOpen.addEventListener("click" , () =>{
 body.addEventListener("click" , e =>{
   let clickedElm = e.target;
 
-  if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+  if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("main-menu")){
     mainHeader.classList.remove("active");
   }
 });
