@@ -242,7 +242,7 @@ header .top-header .header-media-items .social-media i{
   width: 400px;
 }
 
-.sub-mega2-links .sub-mega2-link:not(:last-child){
+.sub-mega2-links .sub-mega2-link{
   border-bottom: 1px solid var(--border-color);
 }
 .sub-mega2-links .item-data{
