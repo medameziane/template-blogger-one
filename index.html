@@ -10,57 +10,97 @@
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <!-- Font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
   <link rel='stylesheet' type='text/css' media='screen' href='assets/css/main.css'>
 </head>
 <body>
   <header>
     <div class="top-header">
-      <div class="container-fluid">
+      <div class="container-wrrapper">
         <div class="top-header-items">
-          <div class="social-media">
-            <span><a href="#">Facebook</a></span>
-            <span><a href="#">Twitter</a></span>
-            <span><a href="#">Instagram</a></span>
+          <div class="top-header-pages">
+            <span><a href="#">الصفحة الرئيسية</a></span>
+            <span><a href="#">إتصل بنا</a></span>
+            <span><a href="#">سياسة الخصوصية</a></span>
           </div>
-          <div class="header-logo">
-            <img src="https://www.makeuseof.com/public/build/images/muo-logo-full-colored-light.svg" width="150px" alt="logo"/>
-          </div>
-          <div class="header-pages">
-            <span><a href="#">Facebook</a></span>
-            <span><a href="#">Twitter</a></span>
-            <span><a href="#">Instagram</a></span>
+          <div class="header-media">
+            <ul class="header-media-items m-0">
+              <li class="facebook social-media"><a href="#" class="social-brand"><i class="fa-brands fa-facebook"></i></a></li>
+              <li class="twitter social-media"><a href="#" class="social-brand"><i class="fa-brands fa-twitter"></i></a></li>
+              <li class="instagram social-media"><a href="#" class="social-brand"><i class="fa-brands fa-instagram"></i></a></li>
+              <li class="pinterest social-media"><a href="#" class="social-brand"><i class="fa-brands fa-pinterest"></i></a></li>
+              <li class="linkedin social-media"><a href="#" class="social-brand"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li class="youtube social-media"><a href="#" class="social-brand"><i class="fa-brands fa-youtube"></i></a></li>
+              <li class="tiktok social-media"><a href="#" class="social-brand"><i class="fa-brands fa-tiktok"></i></a></li>
+              <li class="tumblr social-media"><a href="#" class="social-brand"><i class="fa-brands fa-tumblr"></i></a></li>
+              <li class="reddit social-media"><a href="#" class="social-brand"><i class="fa-brands fa-reddit"></i></a></li>
+              <li class="telegram social-media"><a href="#" class="social-brand"><i class="fa-brands fa-telegram"></i></a></li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-    <div class="main-header">
-      <div class="container-fluid">
-        <nav>
-          <ul class="main-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Help</a></li>
+    <div class="main-header" id="main-header">
+      <div class="nav-bar">
+        <i class='bx bx-menu sidebarOpen'></i>
+        <div class="logo navLogo">
+          <a href="#"><img src="https://1.bp.blogspot.com/-_4nT29-Y9VM/YQqw3m36JGI/AAAAAAAABWk/IZQiI5Xmy44tD0aJO1emKxhfHx7yNryKACLcBGAsYHQ/s150/infocre_name.png"></a>
+        </div>
+
+        <div class="menu">
+          <div class="logo-toggle">
+            <div class="logo">
+              <a href="#">
+                <img src="https://1.bp.blogspot.com/-_4nT29-Y9VM/YQqw3m36JGI/AAAAAAAABWk/IZQiI5Xmy44tD0aJO1emKxhfHx7yNryKACLcBGAsYHQ/s150/infocre_name.png">
+              </a>
+            </div>
+              <i class='bx bx-x siderbarClose'></i>
+          </div>
+
+          <ul class="nav-links">
+              <li><a href="#">الرئيسية</a></li>
+              <li><a href="#">أخبار تقنية</a></li>
+              <li><a href="#">أنظمة التشغيل</a></li>
+              <li><a href="#">الحماية</a></li>
+              <li><a href="#">مقالات تقنية</a></li>
+              <li><a href="#">مراجعات</a></li>
+              <li><a href="#">اندرويد و IOS</a></li>
+              <li><a href="#">مواقع مفيدة</a></li>
+              <li><a href="#">عالم الالعاب</a></li>
+              <li><a href="#">التواصل الإجتماعي</a></li>
           </ul>
-        </nav>
+        </div>
+
+        <div class="darkLight-searchBox">
+          <div class="dark-light">
+              <i class='bx bx-moon moon'></i>
+              <i class='bx bx-sun sun'></i>
+          </div>
+
+          <div class="searchBox">
+            <div class="searchToggle">
+              <i class='bx bx-x cancel'></i>
+              <i class='bx bx-search search'></i>
+            </div>
+
+              <div class="search-field">
+                  <input type="text" placeholder="إبحث هنا ...">
+                  <i class='bx bx-search'></i>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
   </header>
 
-  <!-- <section class="latest">
-    <div class="container-fluid">
-      <div class="row g-3">
-        <div class="col-md-6 col-sm-12"></div>
-        <div class="col-md-6 col-sm-12"></div>
-      </div>
-    </div>
-  </section> -->
+  <div class="container-wrrapper" id="container-wrrapper">
 
-  <div class="main-content">
-    <!-- Type-block1 -->
-    <div class="type-block1 widget">
+    <!-- Start Type-block1 -->
+    <section class="type-block1 widget">
       <div class="section-header">
         <h2 class="section-title">مواضيع عشوائية</h2>
       </div>
@@ -138,10 +178,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Type-block2 -->
-    <div class="type-block2">
+    <!-- Start Type-block2 -->
+    <section class="type-block2">
       <div class="widget">
         <div class="section-header">
           <h2 class="section-title">أندرويد</h2>
@@ -292,10 +332,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Type-block3 -->
-    <div class="type-block3 widget">
+    <!-- Start Type-block3 -->
+    <section class="type-block3 widget">
       <div class="section-header">
         <h2 class="section-title">ويندوز</h2>
         <a href="#" class="view-more">شاهد المزيد</a>
@@ -390,10 +430,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Type-block4 -->
-    <div class="type-block4 widget">
+    <!-- Start Type-block4 -->
+    <section class="type-block4 widget">
       <div class="section-header">
         <h2 class="section-title">مقالات عشوائية</h2>
         <a href="#" class="view-more">شاهد المزيد</a>
@@ -508,16 +548,16 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- main content -->
+    <!-- Start main content -->
     <div class="row">
   
-      <!-- Left section -->
+      <!-- Start Left section -->
       <div class="col-lg-8 col-md-12">
   
-        <!-- Type block 7 -->
-        <div class="type-block7 widget">
+        <!-- Start Type block 7 -->
+        <section class="type-block7 widget">
           <div class="section-header">
             <h2 class="section-title">تدوينات مميزة</h2>
             <a href="#" class="view-more">شاهد المزيد</a>
@@ -584,10 +624,10 @@
               </div>
             </div>
           </div>            
-        </div>
+        </section>
   
-        <!-- Type block 5 -->
-        <div class="type-block5 widget">
+        <!-- Start Type block 5 -->
+        <section class="type-block5 widget">
           <div class="section-header">
             <h2 class="section-title">تطبيقات الأندرويد</h2>
             <a href="#" class="view-more">شاهد المزيد</a>
@@ -678,10 +718,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
   
-        <!-- Latest news -->
-        <div class="latest-news widget">
+        <!-- Start Latest news -->
+        <section class="latest-news widget">
           <div class="section-header">
             <h2 class="section-title">أخر المقالات</h2>
             <a href="#" class="view-more">شاهد المزيد</a>
@@ -758,10 +798,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
   
-        <!-- Type block 6 -->
-        <div class="type-block6 widget">
+        <!-- Start Type block 6 -->
+        <section class="type-block6 widget">
           <div class="section-header">
             <h2 class="section-title">أخبار الحماية</h2>
             <a href="#" class="view-more">شاهد المزيد</a>
@@ -828,14 +868,14 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
   
-      <!-- Right section -->
+      <!-- Start Right section -->
       <div class="col-lg-4 col-md-12">
 
-        <!-- Social media -->
-        <div class="sidebar-social-media">
+        <!-- Start Social media -->
+        <section class="sidebar-social-media">
           <div class="widget">
             <div class="section-header">
               <h2 class="section-title">التواصل الإجتماعي</h2>
@@ -868,11 +908,15 @@
               <div class="reddit social-media">
                 <a href="#" class="social-brand"><i class="fa-brands fa-reddit"></i> <span class="social-name">Reddit</span></a>
               </div>
+              <div class="telegram social-media">
+                <a href="#" class="social-brand"><i class="fa-brands fa-telegram"></i> <span class="social-name">Relegram</span></a>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- Type-block8 -->
-        <div class="type-block8">
+        </section>
+
+        <!-- Start Type-block8 -->
+        <section class="type-block8">
           <div class="widget">
             <div class="section-header">
               <h2 class="section-title">أندرويد</h2>
@@ -922,10 +966,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <!-- Type-block9 -->
-        <div class="type-block9 widget">
+        <!-- Start Type-block9 -->
+        <section class="type-block9 widget">
           <div class="section-header">
             <h2 class="section-title">ويندوز</h2>
             <a href="#" class="view-more">شاهد المزيد</a>
@@ -972,7 +1016,47 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
+
+        <!-- Start Tags section -->
+        <section class="tags widget">
+          <div class="section-header">
+            <h2 class="section-title">الأقسام</h2>
+          </div>
+          <div class="tags-items">
+            <a href="#" class="tag">
+              <span class="tag-icon"><i class="fa-solid fa-tag"></i></span>
+              <span class="tag-name">العاب</span>
+              <span class="tag-count">10</span>
+            </a>
+            <a href="#" class="tag">
+              <span class="tag-icon"><i class="fa-solid fa-tag"></i></span>
+              <span class="tag-name">تطبيقات مهمة</span>
+              <span class="tag-count">15</span>
+            </a>
+            <a href="#" class="tag">
+              <span class="tag-icon"><i class="fa-solid fa-tag"></i></span>
+              <span class="tag-name">برامج ويندوز</span>
+              <span class="tag-count">5</span>
+            </a>
+            <a href="#" class="tag">
+              <span class="tag-icon"><i class="fa-solid fa-tag"></i></span>
+              <span class="tag-name">اندرويد</span>
+              <span class="tag-count">20</span>
+            </a>
+            <a href="#" class="tag">
+              <span class="tag-icon"><i class="fa-solid fa-tag"></i></span>
+              <span class="tag-name">أبل</span>
+              <span class="tag-count">25</span>
+            </a>
+            <a href="#" class="tag">
+              <span class="tag-icon"><i class="fa-solid fa-tag"></i></span>
+              <span class="tag-name">الصحة</span>
+              <span class="tag-count">17</span>
+            </a>
+          </div>
+        </section>
+
       </div>
     </div>
   </div>
